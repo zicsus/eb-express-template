@@ -1,0 +1,30 @@
+{
+  "name": "eb-express-template",
+  "version": "1.0.0",
+  "description": "Boilerplate for elastic beanstalk with express",
+  "main": "index.js",
+  "scripts": {
+    "prod": "NODE_ENV=production node index.js",
+    "dev": "set NODE_ENV=development && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zicsus/eb-express-template.git"
+  },
+  "author": "Himanshu Mishra <zicsus@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zicsus/eb-express-template/issues"
+  },
+  "homepage": "https://github.com/zicsus/eb-express-template#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.25.3",
+    "morgan": "^1.10.0",
+    "pg": "^8.2.1"
+  }
+}
