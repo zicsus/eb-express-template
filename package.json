@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/zicsus/eb-express-template#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "cookie-parser": "^1.4.5",
     "ejs": "^3.1.2",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.25.3",
     "morgan": "^1.10.0",
